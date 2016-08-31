@@ -1,0 +1,30 @@
+<!-- 
+	This file contains a DVD library for all the DVDs that Jenna has.
+	Name: Wai Yan Kaung
+	Date: 9/20/2015
+	Filename: dvdlibrary.dtd
+-->
+
+<! DOCTYPE dvdlibrary [
+
+<! ELEMENT dvdlibrary(dvd)>
+<! ELEMENT dvd(title,description,year,company,characters,bonus,purchased)>
+<! ELEMENT characters(character)>
+<! ELEMENT bonus(feature)>
+<! ELEMENT purchased(price,location,date)>
+
+<! ELEMENT title(#PCDATA)>
+<! ELEMENT description(#PCDATA)>
+<! ELEMENT year(#PCDATA)>
+<! ELEMENT company(#PCDATA)>
+<! ELEMENT character(#PCDATA)>
+<! ELEMENT feature(#PCDATA)>
+<! ELEMENT price(#PCDATA)>
+<! ELEMENT location(#PCDATA)>
+<! ELEMENT date(#PCDATA)>
+
+<! ATTLIST dvd isbn CDTA #REQUIRED>
+<! ATTLIST bonus num CDTA #REQUIRED>
+<! ATTLIST purchased from (mom|dad|sister|grandpa|grandma) CDTA #IMPLIED>
+
+]>

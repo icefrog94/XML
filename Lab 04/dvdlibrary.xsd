@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<!--
+This document contains data on
+Jenna's DVD Library 
+
+Filename: dvdlibrary.xsd
+
+Author: Wai Yan Kaung 
+Date: 11/15/2015
+
+A supporting file list: dvdlibrary.xml
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+<xs:element name="characters">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="character" minOccurs = "0" maxOccurs = "unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="bonus">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="feature" minOccurs = "0" maxOccurs = "unbounded" />
+                <xs:sequence/>
+            </xs:sequence>
+            <xs:attribute ref="num" use="required" />
+        </xs:complexType>
+        </xs:element>
+        
+        <xs:element name="purchased">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element ref="price" minOccurs="0" />
+                    <xs:element ref="location" minOccurs = "0" />
+                    <xs:element ref="date" minOccurs = "0" />
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+        
+        <xs:element name="dvd">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element ref="title" minOccurs="0" />
+                    <xs:element ref="description" minOccurs="0" />
+                    <xs:element ref="year" minOccurs="0" />
+                    <xs:element ref="company" minOccurs="0" />
+                    <xs:element ref="characters" minOccurs="0" maxOccurs="unbounded" />
+                    <xs:element ref="bonus" minOccurs="0" maxOccurs="unbounded" />
+                    <xs:element ref="purchased" minOccurs="0" maxOccurs="unbounded" />
+                </xs:sequence>
+                <xs:attribute ref="isbn" use="required" />
+                <xs:attribute ref="from" use="required"/>
+            </xs:complexType>
+        </xs:element>
+        
+        <xs:element name="dvdlibrary">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element ref="dvd" minOccurs="0" maxOccurs="unbounded" />
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+       
+        <!-- Simple types -->
+    <xs:element name="title" type = "xs:string" />
+    <xs:element name="description" type = "xs:string" />
+    <xs:element name="year" type = "xs:decimal" />
+    <xs:element name="company" type = "xs:string" />
+    <xs:element name="character" type="xs:string" />
+    <xs:element name="feature" type="xs:string" />
+    <xs:element name= "price" type="xs:decimal" />
+    <xs:element name="location" type="xs:string" />
+    <xs:element name="date" type="xs:date" />
+    
+        <xs:attribute name="isbn" type="xs:string"/>
+        <xs:attribute name="from" type="xs:string"/> 
+        
+        <xs:attribute name="num" type="xs:decimal"/>
+    
+   
+    
+
+</xs:schema>
+

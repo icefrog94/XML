@@ -1,0 +1,104 @@
+/*
+   CT Restaurant Ratings
+  
+
+   Filename:         libstyles.css
+   Supporting Files: none
+
+*/
+
+/* Default styles */
+
+* {
+   margin: 0px;
+   list-style: none;
+}
+
+header, section, article {
+   display: block;
+}
+
+
+
+/* Body styles */
+body {
+   background-color: brown;
+   font-family: Verdana, Geneva, sans-serif;
+   margin: 10px auto;
+   width: 920px;
+}
+
+header h1 {
+   color: lightblue;
+   font-size: 2.8em;
+   font-weight: normal;
+   text-shadow: rgb(90, 127, 0) 0px 0px 25px;
+}
+
+header h2 {
+   font-size: 1.5em;
+   font-weight: normal;
+   color: lightblue;
+}
+
+section {
+   margin-top: 25px;
+}
+
+section > h1 {
+   font-weight: normal;
+   font-size: 1.9em;
+}
+
+article {
+   border: 1px solid black;
+   margin: 10px 10px;
+   padding: 10px;
+   width: 400px;
+   float: left;
+   box-shadow: lightblue 8px 8px 15px;
+}
+
+article > h1, article > h2 {
+   background-color: lightblue;
+}
+
+article > h1 {
+   font-size: 1em;
+   font-weight: normal;
+   padding: 10px 0px 0px 10px;
+}
+
+article > h2 {
+   font-size: 0.7em;
+   font-weight: normal;
+   padding: 0px 0px 10px 10px;
+   border-bottom: 5px solid black;
+}
+
+article > p {
+   font-size: 0.7em;
+   margin: 4px 0px 0px 0px;
+   color: black
+}
+
+article span {
+   color: lightblue;
+}
+
+table {
+   border-collapse: collapse;
+   margin: 10px 0px 5px 0px;
+}
+
+td, th {
+   border: 1px solid lightgray;
+   font-weight: normal;
+   font-size: 0.7em;
+   padding: 3px;
+   text-align: center;
+}
+
+th {
+   background-color: lightblue;
+}

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+
+<dvdlibrary>
+ <dvd isbn="1-4157-4399-0" from="mom" >
+   <title>Kung Fu Lizard</title>
+   <description>Jo defends his training academy against the evil Mighty Moose, Benny.</description>
+   <year>2011</year>
+   <company>Cloud Nine Productions</company>
+   <characters>
+      <character>Jo, the Kung Fu Lizard</character>
+      <character>Lisa, the Fighting Kricket</character>
+      <character>Benny, the Evil Mangler Moose</character>
+   </characters>
+   <bonus num="2">
+     <feature>Kung Fu Academy</feature>
+     <feature>Cast Commentary</feature>
+   </bonus>
+   <purchased>
+      <price>19.94</price>
+      <location>Best DVDs in Town</location>
+      <date>2012-10-03</date>
+   </purchased>
+ </dvd>
+
+ <dvd isbn="1-5158-4399-0" from="mom">
+   <title>Planet of the Ogres</title>
+   <description>Bilbo had always dreamt he was from another planet. Now he finds out that he is. Join him as he meets his destiny to save his homeworld.</description>
+   <year>2012</year>
+   <company>MGM</company>
+   <characters>
+      <character>Bilbo, future leader of the Ogres</character>
+      <character>Kilnary, leader of the invading Tigres</character>
+      <character>Wicket, leader of the Morkian army</character>
+   </characters>
+   <bonus num="3">
+     <feature>Making Of Featurette</feature>
+     <feature>Theatre Trailers</feature>
+     <feature>PC downloadable version</feature>
+   </bonus>
+   <purchased>
+      <price>17.99</price>
+      <location>Mallmart</location>
+      <date>2013-10-06</date>
+   </purchased>
+ </dvd>
+
+ <dvd isbn="1-9955-8745-0" from="mom">
+   <title>Mountain King</title>
+   <description>Freda is the daughter of the Mountain King. As the only heir, will she break with tradition and be the first Mountain Queen?</description>
+   <year>2014</year>
+   <company>Sunny Entertainment</company>
+   <characters>
+      <character>Freda, daughter of the Mountain King</character>
+      <character>Toru, the Mountain King</character>
+      <character>Ella, the Enchanted Advisor</character>
+      <character>Bopo, the Monkey Bone Wizard</character>
+   </characters>
+   <bonus num="2">
+     <feature>Cast Commentary</feature>
+     <feature>Mountain King Music Video</feature>
+   </bonus>
+   <purchased>
+      <price>14.99</price>
+      <location>Movies For Everyone</location>
+      <date>2015-11-07</date>
+   </purchased>
+ </dvd>
+
+</dvdlibrary>
+
+
+

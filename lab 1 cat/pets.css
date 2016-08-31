@@ -1,0 +1,30 @@
+Pets   		{ background-color: beige; }
+
+Pet     	{ display: block; width: 300px; color: black;
+	          font-size: 15px; font-family: Arial, Helvetica, sans-serif;
+        	  border: 5px solid black; background-color: lightblue;
+               	  margin: 10px; padding: 15px; }
+Name    	{ display: block; font-size: 20px; letter-spacing: 3px; width: 100%;
+                  text-align: center; background-color: white;
+                  border: 1px solid yellow; }
+Category        { display: list-item; list-style-type: none; 
+                  margin-left: 10px; padding: 5px;}
+Category:before { content: "Category: "; font-weight: bold; }
+Breed           { display: list-item; list-style-type: none; 
+                  margin-left: 10px; padding: 5px;}
+Breed:before 	{ content: "Breed: "; font-weight: bold; }
+DateAdopted        { display: list-item; list-style-type: none; 
+                  margin-left: 10px; padding: 5px;}
+DateAdopted:before { content: "Adopted: "; font-weight: bold; }
+Gender          { display: list-item; list-style-type: none; 
+                  margin-left: 10px; padding: 5px;}
+Gender:before 	{ content: "Gender: "; font-weight: bold; }
+Registered	{ display: list-item; list-style-type: none; 
+                  margin-left: 10px; padding: 5px;}
+Registered:before { content: "Registered: "; font-weight: bold; }
+Color		{ display: list-item; list-style-type: none; 
+                  margin-left: 10px; padding: 5px;}
+Color:before { content: "Color: "; font-weight: bold; }
+ListPrice	{ display: list-item; list-style-type: none; 
+                  margin-left: 10px; padding: 5px;}
+ListPrice:before { content: "List Price: "; font-weight: bold; }

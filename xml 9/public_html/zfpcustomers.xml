@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+
+   Zocalo Fire Pit Customers List
+
+   Filename:         zfpcustomers.xml
+   Supporting Files: 
+   Name: Wai Yan Kaung
+	Date: 12/15/2015
+
+-->
+
+<customers>
+	<customer custID="c28153">
+		<firstName>Eric</firstName>
+		<lastName>Heard</lastName>
+		<address>645 South Eisenhower Avenue</address>
+		<city>Galena</city>
+		<state>IL</state>
+		<postalCode>61036</postalCode>
+		<phone>(815) 555-2163</phone>
+		<email>e.heard93@example.com</email>
+	</customer>
+	<customer custID="c10224">
+		<firstName>Susan</firstName>
+		<lastName>Green</lastName>
+		<address>640 Reicht Lane</address>
+		<city>New Virginia</city>
+		<state>IA</state>
+		<postalCode>50210</postalCode>
+		<phone>(641) 555-5427</phone>
+		<email>s.green23@example.com</email>
+	</customer>
+	<customer custID="c49060">
+		<firstName>Heather</firstName>
+		<lastName>Eisner</lastName>
+		<address>820 Prairie Avenue</address>
+		<city>Lafayette Hill</city>
+		<state>PA</state>
+		<postalCode>19444</postalCode>
+		<phone>(610) 555-5825</phone>
+		<email>h.eisner35@example.com</email>
+	</customer>
+	<customer custID="c92115">
+		<firstName>Lorena</firstName>
+		<lastName>Parsons</lastName>
+		<address>202 Nixon Way</address>
+		<city>Bergen</city>
+		<state>NY</state>
+		<postalCode>14416</postalCode>
+		<phone>(585) 555-5188</phone>
+		<email>l.parsons37@example.com</email>
+	</customer>
+	<customer custID="c61673">
+		<firstName>Thomas</firstName>
+		<lastName>Hall</lastName>
+		<address>130 Bradley Street</address>
+		<city>Charlotte</city>
+		<state>NC</state>
+		<postalCode>28203</postalCode>
+		<phone>(704) 555-6354</phone>
+		<email>t.hall10@example.com</email>
+	</customer>
+</customers>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+
+   Filename:         zfporders.xml
+   Supporting Files: 
+Name: Wai Yan Kaung
+	Date: 12/15/2015
+-->
+
+<orders>
+   <order orderID="ord38200">
+      <custID>c28153</custID>
+      <orderDate>2017-08-14</orderDate>
+      <products>
+         <product pID="t-bon439-8t" qty="3" price="49.99" />
+         <product pID="wine506-8w" qty="2" price="29.99" />
+         <product pID="desse837-8d" qty="1" price="12.99" />
+      </products>
+   </order>
+   <order orderID="ord38201">
+      <custID>c10224</custID>
+      <orderDate>2017-08-14</orderDate>
+      <products>
+         <product pID="filet223-3f" qty="1" price="69.99" />
+         <product pID="seaso281-6s" qty="1" price="7.99" />
+      </products>
+   </order>
+   <order orderID="ord38202">
+      <custID>c49060</custID>
+      <orderDate>2017-08-14</orderDate>
+      <products>
+         <product pID="seafo553-4s" qty="4" price="29.99" />
+         <product pID="desse683-2d" qty="4" price="10.99" />
+         <product pID="wine183-7w" qty="2" price="39.99" />
+      </products>
+   </order>
+   <order orderID="ord38203">
+      <custID>c92115</custID>
+      <orderDate>2017-08-14</orderDate>
+      <products>
+         <product pID="filet740-7f" qty="1" price="89.99" />
+         <product pID="wine452-2w" qty="1" price="39.99" />
+      </products>
+   </order>
+   <order orderID="ord38204">
+      <custID>c61673</custID>
+      <orderDate>2017-08-14</orderDate>
+      <products>
+         <product pID="filet910-8f" qty="1" price="21.99" />
+      </products>
+   </order>
+   <order orderID="ord38312">
+      <custID>c49060</custID>
+      <orderDate>2017-08-16</orderDate>
+      <products>
+         <product pID="sirlo850-5s" qty="1" price="34.99" />
+         <product pID="seafo874-3s" qty="2" price="24.99" />
+         <product pID="desse683-2d" qty="3" price="10.99" />
+      </products>
+   </order>
+   <order orderID="ord38313">
+      <custID>c28153</custID>
+      <orderDate>2017-08-16</orderDate>
+      <products>
+         <product pID="sirlo584-8s" qty="1" price="114.99" />
+         <product pID="desse783-6d" qty="1" price="24.99" />
+      </products>
+   </order>
+   <order orderID="ord38425">
+      <custID>c92115</custID>
+      <orderDate>2017-08-18</orderDate>
+      <products>
+         <product pID="sauce557-6s" qty="1" price="5.99" />
+         <product pID="seafo553-4s" qty="3" price="29.99" />
+         <product pID="wine304-6w" qty="1" price="21.99" />
+      </products>
+   </order>
+   <order orderID="ord38742">
+      <custID>c49060</custID>
+      <orderDate>2017-08-21</orderDate>
+      <products>
+         <product pID="ribey290-1r" qty="1" price="99.99" />
+         <product pID="seaso843-5s" qty="1" price="4.99" />
+         <product pID="desse957-1d" qty="2" price="12.49" />
+      </products>
+   </order>
+</orders>

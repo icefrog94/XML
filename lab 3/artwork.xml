@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+   Artworks
+   
+   Author:   Wai Yan Kaung
+   Date:     10/20/2015
+   
+   Filename:            artworks.xml
+   Supporting Files:    artwork.xsd
+-->
+
+<Artworks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="artwork.xsd">
+  <Artwork>
+     <Title>Spaceport Avenue</Title>
+	 <Media>Aluminum Sculpture</Media>
+	 <Description>A look into the design of future highways in space. Spaceships everywhere will be visiting this future destination that includes futuristic drive-in theaters and diners.</Description>
+	 <Created>April 2012</Created>
+	 <Display>Winterburg Museum</Display>
+  </Artwork>
+  <Artwork>
+     <Title>Richochet Park</Title>
+	 <Media>Clay Sculpture</Media>
+	 <Description>Kids always seem to bounce around from one destination to another all the time. In this sculpture, they can be seen bouncing from side of the park to the other like a bullet richocheting off the walls.</Description>
+	 <Created>April 2011</Created>
+	 <Display>Winterburg Museum</Display>
+  </Artwork>
+  <Artwork>
+     <Title>A Walk in Tuscany</Title>
+	 <Media>Oil Painting</Media>
+	 <Description>A lively painting depicting the Artists experience while walking throught Tuscany. He captures all the main points of his journey in a brilliant collage.</Description>
+	 <Created>April 2011</Created>
+	 <Display>Cincinnati Museum</Display>
+  </Artwork>
+  <Artwork>
+     <Title>Xtreme Air</Title>
+	 <Media>Glass Sculpture</Media>
+	 <Description>An amazing work that uses glass balloon shaps to illustrate a rainbow of balloons circuling a glass earth.</Description>
+	 <Created>April 2010</Created>
+	 <Display>Orlando Museum of Arts</Display>
+  </Artwork>
+</Artworks>

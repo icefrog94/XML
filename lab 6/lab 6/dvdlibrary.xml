@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!--
+   CT Restaurant Ratings
+   
+   Author:   Wai Yan Kaung
+   Date:     12/10/2015
+   
+   Filename:            restrating.xml
+   Supporting Files:    restrating.xsl
+-->
+
+<?xml-stylesheet type="text/xsl" href="dvdlibrary.xsl" ?>
+
+<restratings>
+ <restaurant isbn="1-4157-4399-0" from="mom" >
+   <title>Angda Asian Cuisine</title>
+   <description>Asian fusion specializing in seafood. Would go back.</description>
+   <year>2011</year>
+   <company>Tengda</company>
+   <dishes>
+      <dish>California Roll Sushi</dish>
+      <dish>American Dream Sushi</dish>
+   </dishes>
+   <bonus num="1">
+     <feature>Raw Shark Bites</feature>
+   </bonus>
+   <purchased>
+      <price>12.99</price>
+      <location>Asian Seafood</location>
+      <date>2012-10-03</date>
+   </purchased>
+   <rating>5</rating>
+ </restaurant>
+
+ <restaurant isbn="1-5158-4399-0" from="mom">
+   <title>Sirloin Saloon</title>
+   <description>Steakhouse with top quality food. Recommend it.</description>
+   <year>2012</year>
+   <company>MGM</company>
+   <dishes>
+      <dish>Jumbo Cheeseburger</dish>
+      <dish>8oz Steak</dish>
+      <dish>Porkchop</dish>
+   </dishes>
+   <bonus num="1">
+     <feature>Bacon Wrapped Scallops</feature>
+   </bonus>
+   <purchased>
+      <price>17.99</price>
+      <location>Hamburgers/Steak</location>
+      <date>2013-10-06</date>
+   </purchased>
+   <rating>5</rating>
+ </restaurant>
+
+ <restaurant isbn="1-9955-8745-0" from="mom">
+   <title>Outback Steakhouse</title>
+   <description>Australian themed steakhouse with a small price to pay
+   for the quality you get. Service was great as well.</description>
+   <year>2014</year>
+   <company>Outback</company>
+   <dishes>
+      <dish>Alice Springs Chicken Quesadillas</dish>
+      <dish>Coconut Shrimp</dish>
+      <dish>Crab Stuffed Mushrooms</dish>
+      <dish>Aussie Cheese Fries</dish>
+   </dishes>
+   <bonus num="1">
+     <feature>22oz Porterhouse</feature>
+   </bonus>
+   <purchased>
+      <price>14.99</price>
+      <location>American:Burgers, steak</location>
+      <date>2015-11-07</date>
+   </purchased>
+   <rating>4</rating>
+ </restaurant>
+
+<restaurant isbn="1-9435-8745-0" from="mom">
+   <title>La Sorpresa</title>
+   <description>Decent spot with traditional Colombian food and great prices
+   </description>
+   <year>2014</year>
+   <company>La Sorpresa</company>
+   <dishes>
+      <dish>Bistec a la Plancha</dish>
+      <dish>Salchipapa</dish>
+      <dish>Arepa de Choclo</dish>
+      <dish>Pastelitos</dish>
+   </dishes>
+   <bonus num="1">
+     <feature>Plato Tipico</feature>
+   </bonus>
+   <purchased>
+      <price>9.99</price>
+      <location>Colombian</location>
+      <date>2015-11-07</date>
+   </purchased>
+   <rating>3</rating>
+ </restaurant>
+ 
+ <restaurant isbn="1-9445-8745-0" from="mom">
+   <title>RIO</title>
+   <description>Traditional Mexican food. Great variety + lunch specials.
+   </description>
+   <year>2014</year>
+   <company>RIO</company>
+   <dishes>
+      <dish>Steak Quesadilla</dish>
+      <dish>Flautas</dish>
+      <dish>Enchiladas Suizas</dish>
+      <dish>Arroz con carne</dish>
+   </dishes>
+   <bonus num="1">
+     <feature>Chimichanga</feature>
+   </bonus>
+   <purchased>
+      <price>18.99</price>
+      <location>Mexican</location>
+      <date>2015-11-07</date>
+   </purchased>
+   <rating>4</rating>
+ </restaurant>
+ 
+ <restaurant isbn="1-3435-8745-0" from="mom">
+   <title>Fat Cat Pie Co.</title>
+   <description>Above average pizza located in the heart of Norwalk. You must try it.
+   </description>
+   <year>2014</year>
+   <company>Fat Cat Pie Co.</company>
+   <dishes>
+      <dish>Pecan Carrot Cake</dish>
+      <dish>Pepperoni Pizza</dish>
+      <dish>Specialty Salad</dish>
+      <dish>Mozzarella Sticks</dish>
+   </dishes>
+   <bonus num="1">
+     <feature>Beef Teriyaki Burger</feature>
+   </bonus>
+   <purchased>
+      <price>8.99</price>
+      <location>American/Pizza</location>
+      <date>2015-11-07</date>
+   </purchased>
+   <rating>3</rating>
+ </restaurant>
+ 
+ <restaurant isbn="1-9435-8745-0" from="mom">
+   <title>Brasitas</title>
+   <description>Latin fusion. Excellent food and service</description>
+   <year>2014</year>
+   <company>Brasitas</company>
+   <dishes>
+      <dish>Empanadas Brasitas</dish>
+      <dish>Ceviche</dish>
+      <dish>Camarones con choclo</dish>
+      <dish>Filet Brasitas</dish>
+   </dishes>
+   <bonus num="1">
+     <feature>Lomo De Cerdo</feature>
+   </bonus>
+   <purchased>
+      <price>24.99</price>
+      <location>Latin Fusion</location>
+      <date>2015-11-07</date>
+   </purchased>
+   <rating>4</rating>
+ </restaurant>
+</restratings>
+
+
+

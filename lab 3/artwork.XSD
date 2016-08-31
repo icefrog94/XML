@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+   artwork XSD
+   
+   Author:   Dexter Fearing
+   Date:     10/05/2015
+   
+   Filename: artwork.xsd
+   Supporting Files: artwork.xml
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Artwork">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Title" type="xs:string" />
+                <xs:element name="Media" type="xs:string" />
+                <xs:element name="Description" type="xs:string" />
+                <xs:element name="Created" type="xs:string" />
+                <xs:element name="Display" type="xs:string" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="Artworks">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element ref="Artwork" minOccurs="1" maxOccurs="unbounded" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>

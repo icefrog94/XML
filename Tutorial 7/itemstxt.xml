@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML 3rd Edition
+   Tutorial 7
+   Tutorial Project
+
+   Denison Public Library List of Items
+   Author: Wai Yan Kaung
+   Date:   25 November 2015
+
+   Filename:         items.xml
+   Supporting Files: library.xsl,libstyles.css
+
+-->
+
+
+<?xml-stylesheet type="text/xsl" href="librarytxt.xsl" ?>
+
+<itemlist>
+   <item>
+      <title>
+         Real Family Food
+      </title>
+      <type>Book</type>
+      <authors>
+         <author>McKenzie-Price, Isobel</author>
+      </authors>
+      <subjects>
+         <subject>Cooking</subject>
+         <subject>Family</subject>
+      </subjects>
+      <publisher>All You Books, 2006 New York</publisher>
+      <isbn>9781933821276</isbn>
+      <location>Adult</location>
+      <collection>Non-fiction</collection>
+      <callno>641.5 REA</callno>
+      <status>Available</status>
+   </item>
+   <item>
+      <title>
+         Serenity
+      </title>
+      <type>Visual Material</type>
+      <authors>
+         <author>Whedon, Josh</author>
+      </authors>
+      <subjects>
+         <subject>Human experimentation</subject>
+         <subject>Totalitariansim</subject>
+         <subject>Science fiction</subject>
+      </subjects>
+      <publisher>Universal Pictures, c2005</publisher>
+      <isbn>141703050X</isbn>
+      <location>Adult</location>
+      <collection>DVDs</collection>
+      <callno>DVD SER </callno>
+      <status return="3/5/2017">Checked Out</status>
+   </item>
+
+   <item>
+      <title>
+         Grill It!: Recipes, Techniques, Tools
+      </title>
+      <type>Book</type>
+      <authors>
+         <author>Schlesinger, Chris</author>
+         <author>Willoughby, John</author>
+      </authors>
+      <subjects>
+         <subject>Barbecuing</subject>
+         <subject>Cooking</subject>
+         <subject>Grilling</subject>
+      </subjects>
+      <publisher>DK Publishing, 2008 New York</publisher>
+      <isbn>9780756617417</isbn>
+      <location>Adult</location>
+      <collection>Non-fiction</collection>
+      <callno>641.5784 SCH</callno>
+      <status>Available</status>
+   </item>
+   <item>
+      <title>
+         Cycling Fit
+      </title>
+      <type>Book</type>
+      <authors>
+         <author>Baird, Jamie</author>
+      </authors>
+      <subjects>
+         <subject>Cycling</subject>
+         <subject>Physical Fitness</subject>
+         <subject>Sport</subject>
+      </subjects>
+      <publisher>Collins and Brown, 2006 New York</publisher>
+      <isbn>9781843403333</isbn>
+      <location>Adult</location>
+      <collection>Non-fiction</collection>
+      <callno>796.6 B163c </callno>
+      <status>Available</status>
+   </item>
+   <item>
+      <title>
+         Coolidge
+      </title>
+      <type>Book</type>
+      <authors>
+         <author>Shlaes, Amity</author>
+      </authors>
+      <subjects>
+         <subject>Coolidge, Calvin</subject>
+         <subject>Presidents</subject>
+         <subject>Politics and government</subject>
+      </subjects>
+      <publisher>Harper, c2013 New York</publisher>
+      <isbn>9780061967559</isbn>
+      <location>Adult</location>
+      <collection>Non-fiction</collection>
+      <callno>973.91 SHL</callno>
+      <status return="3/22/2017">Checked Out</status>
+   </item>
+   <item>
+      <title>
+         A Man for All Seasons
+      </title>
+      <type>Visual Material</type>
+      <authors>
+         <author>Bolt, Robert</author>
+      </authors>
+      <subjects>
+         <subject>More, Thomas</subject>
+         <subject>Henry VIII</subject>
+         <subject>Historical films</subject>
+      </subjects>
+      <publisher>Columbia TriStar Home Video, c1998</publisher>
+      <isbn>0767827074 </isbn>
+      <location>Adult</location>
+      <collection>DVDs</collection>
+      <callno>DVD MAN</callno>
+      <status>Available</status>
+   </item>
+   <item>
+      <title>
+         The Sun also Rises
+      </title>
+      <type>Book</type>
+      <authors>
+         <author>Hemingway, Ernest</author>
+      </authors>
+      <subjects>
+         <subject>Expatriation</subject>
+         <subject>Bullfighting</subject>
+         <subject>Literature</subject>
+      </subjects>
+      <publisher>Scribner, c1926 New York</publisher>
+      <isbn>9780743297332</isbn>
+      <location>Adult</location>
+      <collection>Fiction</collection>
+      <callno>FIC Hem</callno>
+      <status>Available</status>
+   </item>
+   <item>
+      <title>
+         Louis Armstrong
+      </title>
+      <type>Book</type>
+      <authors>
+         <author>Iverson, Genie</author>
+         <author>Brooks, Kevin</author>
+      </authors>
+      <subjects>
+         <subject>Jazz</subject>
+         <subject>Black History</subject>
+         <subject>Music</subject>
+      </subjects>
+      <publisher>Crowell, c1976 New York</publisher>
+      <isbn>069001127X</isbn>
+      <location>Children's</location>
+      <collection>Non-fiction</collection>
+      <callno>J 921 A736i</callno>
+      <status>Available</status>
+   </item>
+   <item>
+      <title>
+         Emma
+      </title>
+      <type>Book</type>
+      <authors>
+         <author>Austen, Jane</author>
+      </authors>
+      <subjects>
+         <subject>British customs</subject>
+         <subject>Romance</subject>
+         <subject>Social life</subject>
+      </subjects>
+      <publisher>Knopf [1991] New York</publisher>
+      <isbn>9780809594917</isbn>
+      <location>Adult</location>
+      <collection>Fiction</collection>
+      <callno>F AUS</callno>
+      <status>Available</status>
+   </item>
+   <item>
+      <title>
+         Gateway
+      </title>
+      <type>Book</type>
+      <authors>
+         <author>Pohl, Frederik</author>
+      </authors>
+      <subjects>
+         <subject>Space</subject>
+         <subject>Exploration</subject>
+         <subject>Science fiction</subject>
+      </subjects>
+      <publisher>St. Martin's Press, c1977 New York</publisher>
+      <isbn>9780739401095</isbn>
+      <location>Adult</location>
+      <collection>Fiction</collection>
+      <callno>SF POH</callno>
+      <status>Available</status>
+   </item>
+   <item>
+      <title>
+         Lucifer's Hammer
+      </title>
+      <type>Book</type>
+      <authors>
+         <author>Niven, Larry</author>
+         <author>Pournelle, Jerry</author>
+      </authors>
+      <subjects>
+         <subject>Science fiction</subject>
+         <subject>Disaster</subject>
+         <subject>Comet</subject>
+      </subjects>
+      <publisher>Playboy Press, c1977 Chicago</publisher>
+      <isbn>0872234878</isbn>
+      <location>Adult</location>
+      <collection>Fiction</collection>
+      <callno>SF NIV</callno>
+      <status return="3/11/2017">Checked Out</status>
+   </item>
+   <item>
+      <title>
+         The Iron Giant
+      </title>
+      <type>Visual Material</type>
+      <authors>
+         <author>Hughes, Ted</author>
+         <author>Bodner, Alan</author>
+         <author>Townshend, Peter</author>
+      </authors>
+      <subjects>
+         <subject>Robots</subject>
+         <subject>Animation</subject>
+         <subject>Science fiction</subject>
+      </subjects>
+      <publisher>Columbia TriStar Home Video, c1998 CA</publisher>
+      <isbn>0790749866</isbn>
+      <location>Children's</location>
+      <collection>DVDs</collection>
+      <callno>JUV DVD IRON</callno>
+      <status>Available</status>
+   </item>
+   <item>
+      <title>
+         Origami
+      </title>
+      <type>Book</type>
+      <authors>
+         <author>Sakata, Hideaki</author>
+      </authors>
+      <subjects>
+         <subject>Crafts</subject>
+         <subject>Japan</subject>
+         <subject>Paper Folding</subject>
+      </subjects>
+      <publisher>Graph-Sha, 1984 Tokyo; New York</publisher>
+      <isbn>0870405802</isbn>
+      <location>Adult</location>
+      <collection>Non-fiction</collection>
+      <callno>736.982 SAK</callno>
+      <status>Available</status>
+   </item>
+   <item>
+      <title>
+         Ali
+      </title>
+      <type>Visual Material</type>
+      <authors>
+         <author>Peters, Jon</author>
+         <author>Howard, Gregory Allen</author>
+      </authors>
+      <subjects>
+         <subject>Biography</subject>
+         <subject>Boxing</subject>
+         <subject>Sports</subject>
+      </subjects>
+      <publisher>Columbia TriStar Home Entertainment, [2002]</publisher>
+      <isbn> 076786977X</isbn>
+      <location>Adult</location>
+      <collection>DVDs</collection>
+      <callno>DVD ALI</callno>
+      <status>Available</status>
+   </item>
+   <item>
+      <title>
+         My View from the Corner : A Life in Boxing
+      </title>
+      <type>Book</type>
+      <authors>
+         <author>Dundee, Angelo</author>
+         <author>Sugar, Bert Randolph</author>
+      </authors>
+      <subjects>
+         <subject>Boxing</subject>
+         <subject>Trainers</subject>
+         <subject>Memoirs</subject>
+      </subjects>
+      <publisher>McGraw-Hill, c2008 New York</publisher>
+      <isbn>9780071477390</isbn>
+      <location>Adult</location>
+      <collection>Non-fiction</collection>
+      <callno>796.83 D91</callno>
+      <status>Available</status>
+   </item>
+   <item>
+      <title>
+         Knitting
+      </title>
+      <type>Book</type>
+      <authors>
+         <author>Wilkes, Angela S</author>
+         <author>Garbera, Carol</author>
+         <author>Whitlock, Lily</author>
+      </authors>
+      <subjects>
+         <subject>Crafts</subject>
+         <subject>Knitting</subject>
+      </subjects>
+      <publisher>Usborne Pub 1986 c1985 London, England</publisher>
+      <isbn>0881103209</isbn>
+      <location>Children's</location>
+      <collection>Non-fiction</collection>
+      <callno>J746.4 WIL</callno>
+      <status>Available</status>
+   </item>
+   <item>
+      <title>
+         Aha! Insight
+      </title>
+      <type>Book</type>
+      <authors>
+         <author>Gardner, Martin</author>
+      </authors>
+      <subjects>
+         <subject>Math</subject>
+         <subject>Puzzles</subject>
+         <subject>Logic</subject>
+      </subjects>
+      <publisher>Scientific American, c1978 New York</publisher>
+      <isbn>0894540017</isbn>
+      <location>Adult</location>
+      <collection>Non-fiction</collection>
+      <callno>511.2 GAR</callno>
+      <status return="3/23/2017">Checked Out</status>
+   </item>
+   <item>
+      <title>
+         Meet Me in St. Louis
+      </title>
+      <type>Visual Material</type>
+      <authors>
+         <author>Minnelli, Vincente</author>
+         <author>Freed, Arthur</author>
+      </authors>
+      <subjects>
+         <subject>Judy Garland</subject>
+         <subject>Family</subject>
+         <subject>Musicals</subject>
+      </subjects>
+      <publisher>Distributed by Warner Home Video, 2004</publisher>
+      <isbn>0790744767</isbn>
+      <location>Adult</location>
+      <collection>DVDs</collection>
+      <callno>DVD MEE</callno>
+      <status return="3/19/2017">Checked Out</status>
+   </item>
+   <item>
+      <title>
+         Mr. Lincoln's Army
+      </title>
+      <type>Book</type>
+      <authors>
+         <author>Catton, Bruce</author>
+      </authors>
+      <subjects>
+         <subject>Lincoln, Abraham</subject>
+         <subject>Civil War</subject>
+         <subject>US History</subject>
+      </subjects>
+      <publisher>Doubleday [1962] Garden City, N.Y.</publisher>
+      <isbn>9780385043106</isbn>
+      <location>Adult</location>
+      <collection>Non-fiction</collection>
+      <callno>973.741 CAT</callno>
+      <status>Available</status>
+   </item>
+   <item>
+      <title>
+         The Bonfire of the Vanities
+      </title>
+      <type>Book</type>
+      <authors>
+         <author>Wolfe, Tom</author>
+      </authors>
+      <subjects>
+         <subject>New York</subject>
+         <subject>Race Relations</subject>
+      </subjects>
+      <publisher>Farrar, Straus Giroux, c1987 New York</publisher>
+      <isbn>0374115370</isbn>
+      <location>Adult</location>
+      <collection>Fiction</collection>
+      <callno>F WOL</callno>
+      <status return="3/12/2017">Checked Out</status>
+   </item>
+
+</itemlist>

@@ -1,0 +1,32 @@
+<results>
+   <members>
+      <orderTotal>$243.9</orderTotal>
+      <member>
+         <customer custID="c49060">
+		          <firstName>Heather</firstName>
+		          <lastName>Eisner</lastName>
+		          <address>820 Prairie Avenue</address>
+		          <city>Lafayette Hill</city>
+		          <state>PA</state>
+		          <postalCode>19444</postalCode>
+		          <phone>(610) 555-5825</phone>
+		          <email>h.eisner35@example.com</email>
+	        </customer>
+      </member>
+   </members>
+   <members>
+      <orderTotal>$222.94</orderTotal>
+      <member>
+         <customer custID="c28153">
+		          <firstName>Eric</firstName>
+		          <lastName>Heard</lastName>
+		          <address>645 South Eisenhower Avenue</address>
+		          <city>Galena</city>
+		          <state>IL</state>
+		          <postalCode>61036</postalCode>
+		          <phone>(815) 555-2163</phone>
+		          <email>e.heard93@example.com</email>
+	        </customer>
+      </member>
+   </members>
+</results>
